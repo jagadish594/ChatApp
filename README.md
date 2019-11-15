@@ -7,10 +7,9 @@ There's a few things you need to get started on to get this to work.
 This Chat application is built using NodeJS, Create-React-App, Redux, Redux-Saga and basic HTML/CSS
 
 ### 2. Serving your app
-By default, you can run `npm start` to run your app, serving the files from `/public`. You can, however, change this to whatever you want! Just make sure you document the changes somewhere so we can run this.
-
+By default, you can run `npm start` to run your app, serving the files from `/public`. 
 ### 3. Running the api server
-We have provided a simple api server for you. You can run `npm run api-server` to start it. 
+You can run `npm run api-server` to start it. 
 
 ## Instructions
 a) Point your browser at http://localhost:3000/ to got to login page
