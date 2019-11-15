@@ -1,0 +1,128 @@
+html, body{
+  margin: 0;
+}
+
+.LoginContainer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 20%;
+}
+
+.LoginInputBox{
+  width: 20%;
+  height: 20px;
+  padding: 5px;
+}
+
+.JoinChatButton{
+  width: 21%;
+  height: 40px;
+  padding: 5px;
+  background-color: rgba(240, 20, 75, 0.931);
+  margin: 15px;
+}
+
+.JoinChatButtonText{
+  color: white;
+  text-decoration: none;
+}
+
+.ChatContainer{
+  display: flex;
+  justify-content: flex-start;
+}
+
+.LeftPanel{
+  width: 15%;
+  background-color: rgb(243, 37, 71);
+  vertical-align: top;
+}
+
+.UserName{
+  margin: 0px;
+  padding: 10px;
+  font-size: 20px;
+  color: white;
+}
+
+.ChatRooms{
+  margin: 0px;
+  padding: 0px;
+}
+
+.Room{
+  margin: 0px;
+  padding: 10px;
+  font-size: 13.5px;
+}
+
+.RightPanel{
+  vertical-align: top;
+  width: 85%;
+}
+
+ul, li{
+  list-style: none;
+  padding: 0px;
+  cursor: pointer;
+  color: white;
+}
+
+li:active, li:hover{
+  background-color: darkred;
+}
+
+.ChatRoomHeader{
+  background-color: white;
+  text-align: center;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding: 17px;
+}
+
+.Messages{
+  background-color: rgba(225, 235, 235, 0.637);
+  padding: 17px;
+}
+
+.Message{
+  padding: 12px;
+  background-color:white;
+  width: 50%;
+  border-radius: 25px;
+  margin: 5px;
+}
+
+.User{
+  color: rgba(53, 54, 54, 0.719);
+  font-size: small;
+  padding-top: 1px;
+  padding-bottom: 7px;
+  margin-bottom: 15px;
+  padding-left: 5px;
+}
+
+.ReplyBox{
+  background-color: white;
+  width: 100%;
+  padding: 15px;
+}
+
+.ReplyInput{
+  width: 85%;
+  padding: 10px;
+}
+
+.SendButton{
+  width: 12%;
+  padding: 5px;
+  background-color: transparent;
+  border: none;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  color: rgba(129, 200, 241, 0.965);
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
